@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	font-family: 'Asar', serif;
+	display: flex;
+}
+nav {
+	display: block;
+	width: 200px;
+	min-width: 200px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+main {
+	width: 600px;
+}
+main > section {
+	width: 100%;
+	text-align: justify;
+	z-index: -1;
+	padding: 0 50px 0
+}
+main > section > h1 {
+	margin: 0;
+	padding: 40px 0 0px;
+}
+nav > ul {
+	list-style: none;
+	margin: 45px 20px 30px;
+	padding: 0;
+	position: fixed;
+}
+nav > ul > li > a {
+	padding: 0 15px 0;
+	text-decoration: none;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.with-image {
+	padding: 30px 0 30px;
+}
+.with-image img {
+	border-radius: 3px;
+}
